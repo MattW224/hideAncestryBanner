@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Ancestry banners",
+    "description": "Remove the Ancestry maintenance and private policy banners.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.ancestry.com.au/*",
+                "https://www.ancestry.ca/*",
+                "https://www.ancestry.com/*",
+                "https://www.ancestry.de/*",
+                "https://www.ancestry.fr/*",
+                "https://www.ancestry.ie/*",
+                "https://www.ancestry.it/*",
+                "https://www.ancestry.mx/*",
+                "https://www.ancestry.no/*",
+                "https://www.ancestry.pl/*",
+                "https://www.ancestry.se/*",
+                "https://www.ancestry.co.uk/*"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "version": "0.10"
+}
