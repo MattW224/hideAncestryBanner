@@ -10,18 +10,18 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.ancestry.com.au/*",
-                "https://www.ancestry.ca/*",
-                "https://www.ancestry.com/*",
-                "https://www.ancestry.de/*",
-                "https://www.ancestry.fr/*",
-                "https://www.ancestry.ie/*",
-                "https://www.ancestry.it/*",
-                "https://www.ancestry.mx/*",
-                "https://www.ancestry.no/*",
-                "https://www.ancestry.pl/*",
-                "https://www.ancestry.se/*",
-                "https://www.ancestry.co.uk/*"
+                "https://*.ancestry.com.au/*",
+                "https://*.ancestry.ca/*",
+                "https://*.ancestry.com/*",
+                "https://*.ancestry.de/*",
+                "https://*.ancestry.fr/*",
+                "https://*.ancestry.ie/*",
+                "https://*.ancestry.it/*",
+                "https://*.ancestry.mx/*",
+                "https://*.ancestry.no/*",
+                "https://*.ancestry.pl/*",
+                "https://*.ancestry.se/*",
+                "https://*.ancestry.co.uk/*"
             ],
             "js": ["content.js"]
         }
